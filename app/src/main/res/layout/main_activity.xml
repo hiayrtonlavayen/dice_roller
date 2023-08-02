@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9FF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:background="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/roller_dice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:backgroundTint="#FFC107"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:minWidth="200dp"
+        android:text="@string/button_roll"
+        android:textColor="#3F51B5"
+        android:textSize="15sp"
+        android:translationY="150dp" />
+
+
+</LinearLayout>
